@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>이미지 전송 페이지</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="author" content="StudentDecuple" />
+        <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="index.css" />
+    </head>
+
+    <body>
+
+        <section class="center">
+
+            <div class="top">
+
+                <div class="infoBox">
+                    <input type="text" id="info" placeholder="30300 홍길동">
+                </div>
+                <div class="fileBox">
+                    <label for="fileInput" class="fileLabel">파일 업로드</label>
+                    <input type="file" id="fileInput" accept="image/*" class="inputButton" multiple>
+                </div>
+                <div class="sendBox">
+                    <label for="send" class="sendLabel">전송</label>
+                    <input type="button" class="sendButton" id="send">
+                </div>
+
+            </div>
+
+            <div class="preview">
+                <p></p>
+            </div>
+
+            <div class="description">
+
+                <h1>
+                    사진을 업로드할 때 주의해 주세요!
+                </h1>
+
+                <h3>
+
+                    1. 사진 파일들만 업로드합니다. (중복 선택 가능) <br>
+                    2. 대부분의 사진이 영상에 들어가므로, 사진들을 신중히 선택합니다. <br>
+                    3. 전송해 주신 모든 사진들은 영상 제작 후 전부 파기 및 삭제됩니다. <br>
+                
+                </h3>
+
+            </div>
+
+            <h4>
+                학번을 입력하고 파일을 업로드한 뒤 전송 버튼을 누르세요.
+            </h4>
+
+            <label id="resultLabel"></label>
+
+            <label class="copyright">
+                Copyright (c) 2020 Team Decuple. All rights reserved.
+            </label>
+            
+        </section>
+
+        <script src="index.js"></script>
+        <script src="bg.js"></script>
+
+    </body>
+
+</html>
