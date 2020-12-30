@@ -42,4 +42,4 @@ sendButton.addEventListener('click', () => {
 
     var resultLabel = document.getElementById("resultLabel");
     resultLabel.innerText = `전송을 완료했습니다.`;
-})
+});
