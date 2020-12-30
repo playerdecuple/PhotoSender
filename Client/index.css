@@ -92,8 +92,8 @@ h4 {
 .infoBox label {
   text-align: center;
   position: absolute;
-  left: 1px; /* input 요소의 border-left 설정값 만큼 */
-  padding: 0.5em 0.5em; /* input 요소의 padding 값 만큼 */
+  left: 1px;
+  padding: 0.5em 0.5em;
   color: #999;
   cursor: text;
   font-family: "Jua", sans-serif;
